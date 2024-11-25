@@ -1,10 +1,7 @@
 <?php
-    ob_start();
-    require_once "../classes/CRUD_Produit.php";
-    $crud = new CRUD_Produit();
-    $LesProduits = $crud->findAll();
-    ?>
-    <table class="table">
+ob_start();
+?>
+<table class="table">
         <tr>
             <th>Identifiant</th>
             <th>Libellé</th>

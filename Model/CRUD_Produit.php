@@ -1,9 +1,9 @@
 <?php
 require_once "produit.php";
-require_once "../connexion.php";
+require_once "connexion.php";
 class CRUD_Produit
 {
-    private $pdo; // objet PDO
+    private $pdo; 
     function __construct()
     {
         $connexion = new connexion();
